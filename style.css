@@ -1,0 +1,100 @@
+td{
+  width: 100px;
+  height: 100px;
+  background: black;
+  font-size: 50px;
+  text-align: center;
+  color: #ce405d;
+  
+  
+
+
+}
+table{
+   margin: 70px auto;
+   
+
+}
+body{
+  background-color: black;
+}
+#container{
+  
+  height: 520px;
+  font-family: 'Orbitron', sans-serif;
+}
+#player{
+  position: relative;
+  text-align: center;
+  color: aliceblue;
+  margin-top: 60px;
+  font-size: 30px;
+}
+#copyright{
+  background-color: wheat;
+  height: 40px;
+  text-align: center;
+  margin-top: 100px;
+  width:100%;
+  position: fixed;
+  font-family: 'Orbitron', sans-serif;
+  padding-top: 10px;
+}
+#reButton{
+  width: 120px;
+  height: 30px;
+  background-color: rgb(136, 71, 132);
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 0px;
+  border-radius: 30px;
+  position: relative;
+  text-align: center;
+  margin: 70px auto 0 auto;
+  text-decoration: none;
+  text-emphasis: none;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 15px;
+  
+  
+
+}
+#buttonText{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+#reButton:hover{
+  cursor: pointer;
+ 
+  background-color: rgb(92, 51, 89);
+  border: whitesmoke solid;
+  
+}
+#buttonText:hover{
+  cursor: pointer;
+ 
+
+  
+}
+#r1, #r4, #r5, #r2{
+  border-right:aliceblue solid;
+  border-bottom: aliceblue solid;
+}
+#r3, #r6{
+  border-bottom: aliceblue solid;
+}
+#r7, #r8{
+border-right: aliceblue solid;
+}
+td:hover{
+  background-color: #212922;
+}
+#profile{
+  text-decoration: none;
+  color: #a31d38;
+  font-size:20px ;
+}
+#profile: hover{
+color:black;
+}
